@@ -3,6 +3,7 @@ $body-font: 'Lato', sans-serif
 
 $c-red: #B04B2A
 $c-light: white
+$c-dark: #000000
 
 =padding-hz($x)
     padding-left: $x
@@ -21,9 +22,21 @@ h1
     
 .center
     text-align: center
+    vertical-align: center
+    +padding-hz(20%)
     
-#a1
-    +padding-hz(10%)
+
+.main-div
+    text-align: left
+    padding-left: 3%
+    width: 80%
+    
+#main-div-1
+    border-left: solid $c-dark 1px
+
+    
+#main-div-2
+    margin-top: 6%
 
 
 .button
@@ -33,11 +46,11 @@ h1
     background: $c-red 
     padding: 15px 20px
     border-radius: 10px
-    
-#b1
-    margin-top: 6%
+
+#button-1
     width: 20%
     display: inline
+    font-weight: 700
     
 a:link
     text-decoration: none
