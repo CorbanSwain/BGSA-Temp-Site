@@ -1,0 +1,43 @@
+$display-font: 'Playfair Display', serif
+$body-font: 'Lato', sans-serif
+
+$c-red: #B04B2A
+$c-light: white
+
+=padding-hz($x)
+    padding-left: $x
+    padding-right: $x
+    
+=margin-hz($x)
+    margin-left: $x
+    margin-right: $x
+
+body
+    font-family: $body-font
+
+h1 
+    font-family: $display-font
+    font-size: 30pt
+    
+.center
+    text-align: center
+    
+#a1
+    +padding-hz(10%)
+
+
+.button
+    text-align: center
+    font-size: 20pt
+    color: $c-light
+    background: $c-red 
+    padding: 15px 20px
+    border-radius: 10px
+    
+#b1
+    margin-top: 6%
+    width: 20%
+    display: inline
+    
+a:link
+    text-decoration: none
