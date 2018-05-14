@@ -1,0 +1,65 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 25pt;
+}
+
+.center {
+  text-align: center;
+  height: 120%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.main-div {
+  text-align: left;
+}
+
+#main-div-2 {
+  margin-top: 10px;
+}
+
+.button {
+  text-align: center;
+  color: white;
+  background: #D34E24;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 15pt;
+  padding: 10px 17px;
+  border-radius: 7px;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1100px) {
+  .main-div {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  h1 {
+    font-size: 33pt;
+  }
+  #main-div-2 {
+    margin-top: 30px;
+  }
+  .button {
+    font-size: 20pt;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+}

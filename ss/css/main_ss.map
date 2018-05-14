@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/main_ss.css",
+	"sources": [
+		"../scss/main_ss.sass"
+	],
+	"sourcesContent": [
+		"$display-font: 'Vidaloka' serif;\n$body-font: 'Open Sans' sans-serif;\n\nbody {\n    font-family: $body-font; }\n\nh1 {\n    font-family: $display-font; }\n\n"
+	],
+	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACD,WAAW,EAHH,WAAW,CAAC,UAAU;CAGJ;;;AAE9B,AAAA,EAAE,CAAC;EACC,WAAW,EAPA,UAAU,CAAC,KAAK;CAOE",
+	"names": []
+}
