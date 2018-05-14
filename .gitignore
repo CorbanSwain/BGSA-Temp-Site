@@ -1,8 +1,5 @@
-# css directory, dependent on scss
-ss/css
-
-
 ## These should be moved to global gitignore file ##
 
 # Komodo edit files
 *.komodoproject
+.komodo*
