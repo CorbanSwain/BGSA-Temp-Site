@@ -1,3 +1,7 @@
+div {
+  transition: all 0.3s ease;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: white;
@@ -27,7 +31,6 @@ h1 {
   text-align: center;
   color: white;
   background: #D34E24;
-  transition: all 0.3s ease;
   display: inline-block;
   font-size: 15pt;
   padding: 10px 17px;
