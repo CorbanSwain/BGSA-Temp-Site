@@ -1,12 +1,14 @@
-//$display-font: 'Playfair Display', serif
-$display-font: 'ltc-bodoni-175', serif
+$display-font: 'Playfair Display', serif
+//$display-font: 'ltc-bodoni-175', serif
 $body-font: 'Lato', sans-serif
 
 $c-red: #D34E24
-$c-light: white
+$c-light: #F2F2F2
 $c-dark: #262626
 $c-lightblue: #4392F1
 $c-darkblue: #006494
+
+$c-button-1: $c-darkblue
 
 =padding-hz($x)
     padding-left: $x
@@ -16,64 +18,76 @@ $c-darkblue: #006494
     margin-left: $x
     margin-right: $x
     
+=margin-vt($x)
+    margin-top: $x
+    margin-bottom: $x
+
+    
 =transform($scale)
     -webkit-transform: scale($scale)
     -ms-transform: scale($scale)
     transform: scale($scale)
 
 div
-    transition: all 0.3s ease
+    transition: all 0.15s ease
 
 body
     font-family: $body-font
     background-color: $c-light
 
-h1 
+h1
     font-family: $display-font
-    font-size: 25pt
+    font-size: 45pt
     
 .center
     text-align: center
     height: 120%
-    +padding-hz(20%)
+    +padding-hz(5%)
     
 .main-div
-    text-align: left
+    text-align: center
     
 #main-div-1
+    display: inline-block
     
 #main-div-2
-    margin-top: 10px
+    +margin-vt(25px)
 
 .button
     text-align: center
     color: $c-light
-    background: $c-red
+    background: $c-button-1
     display: inline-block
-    font-size: 15pt
-    padding: 10px 17px
-    border-radius: 7px
+    font-size: 30pt
+    font-weight: 700
+    padding: 20px 25px
+    border-radius: 10px
     
-
-.button:hover
-    +transform(1.05)
     
 a:link
     text-decoration: none
     
-    
-@media only screen and (min-width: 1100px)
-    .main-div
-        width: 700px
-        
-@media only screen and (min-width: 990px)
+@media only screen and (min-width: 750px)    
     h1
         font-size: 33pt
+    
+    #main-div-1
+        width: 700px
+    
     #main-div-2
-        margin-top: 30px 
+        +margin-vt(20px) 
         
     .button
         font-size: 20pt
         padding: 15px 20px
         border-radius: 10px
+        background: $c-light
+        border-style: solid
+        border-width: 3px
+        border-color: $c-button-1
+        color: $c-button-1
+        
+    .button:hover
+        background: $c-button-1
+        color: $c-light
         
