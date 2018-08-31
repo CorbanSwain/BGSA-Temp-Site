@@ -1,12 +1,15 @@
-$display-font: 'Playfair Display', serif
+@import url("https://use.typekit.net/cbo8dqk.css");
+
+$display-font: 'base-900-sans', serif
+$display-font-weight: 300
 //$display-font: 'ltc-bodoni-175', serif
-$body-font: 'Lato', sans-serif
+$body-font: 'base-mono-narrow', sans-serif
 
 $c-red: #D34E24
 $c-light: #F2F2F2
 $c-dark: #262626
 $c-lightblue: #4392F1
-$c-darkblue: #006494
+$c-darkblue: #7A215F
 
 $c-button-1: $c-darkblue
 
@@ -33,10 +36,12 @@ div
 
 body
     font-family: $body-font
+    font-weight: $display-font-weight
     background-color: $c-light
 
 h1
     font-family: $display-font
+    font-weight: $display-font-weight
     font-size: 45pt
     
 .center
@@ -63,6 +68,10 @@ h1
     padding: 20px 25px
     border-radius: 10px
     
+.icon-sign
+    padding-top: 50px
+    max-width: 200px
+    max-height: 200px
     
 a:link
     text-decoration: none
@@ -90,4 +99,8 @@ a:link
     .button:hover
         background: $c-button-1
         color: $c-light
+        
+    .icon-sign
+        max-width: 150px
+        max-height: 150px
         

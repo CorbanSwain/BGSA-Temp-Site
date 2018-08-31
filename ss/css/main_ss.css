@@ -1,17 +1,24 @@
+@import url("https://use.typekit.net/cbo8dqk.css");
+/* line 34, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 div {
   transition: all 0.15s ease;
 }
 
+/* line 37, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "base-mono-narrow", sans-serif;
+  font-weight: 300;
   background-color: #F2F2F2;
 }
 
+/* line 42, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "base-900-sans", serif;
+  font-weight: 300;
   font-size: 45pt;
 }
 
+/* line 47, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 .center {
   text-align: center;
   height: 120%;
@@ -19,23 +26,27 @@ h1 {
   padding-right: 5%;
 }
 
+/* line 52, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 .main-div {
   text-align: center;
 }
 
+/* line 55, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 #main-div-1 {
   display: inline-block;
 }
 
+/* line 58, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 #main-div-2 {
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
+/* line 61, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 .button {
   text-align: center;
   color: #F2F2F2;
-  background: #006494;
+  background: #7A215F;
   display: inline-block;
   font-size: 30pt;
   font-weight: 700;
@@ -43,21 +54,33 @@ h1 {
   border-radius: 10px;
 }
 
+/* line 71, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
+.icon-sign {
+  padding-top: 50px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* line 76, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
 a:link {
   text-decoration: none;
 }
 
 @media only screen and (min-width: 1100px) {
+  /* line 80, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
   h1 {
     font-size: 33pt;
   }
+  /* line 83, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
   #main-div-1 {
     width: 700px;
   }
+  /* line 86, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
   #main-div-2 {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  /* line 89, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
   .button {
     font-size: 20pt;
     padding: 15px 20px;
@@ -65,11 +88,19 @@ a:link {
     background: #F2F2F2;
     border-style: solid;
     border-width: 3px;
-    border-color: #006494;
-    color: #006494;
+    border-color: #7A215F;
+    color: #7A215F;
   }
+  /* line 99, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
   .button:hover {
-    background: #006494;
+    background: #7A215F;
     color: #F2F2F2;
   }
+  /* line 103, /Users/corban_swain/repos/bgsa_temp_site/ss/scss/main_ss.sass */
+  .icon-sign {
+    max-width: 150px;
+    max-height: 150px;
+  }
 }
+
+/*# sourceMappingURL=../css/main_ss.map */
