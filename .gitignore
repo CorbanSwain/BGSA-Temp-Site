@@ -3,3 +3,13 @@
 # Komodo edit files
 *.komodoproject
 .komodo*
+
+# Images
+*.png
+*.ico
+*.svg
+
+# Misc Settings
+browserconfig.xml
+site.webmanifest
+
